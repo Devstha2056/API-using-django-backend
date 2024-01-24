@@ -10,3 +10,4 @@ class diabetes(models.Model):
     BMI = models.FloatField(default=25.0)  
     DiabetesPedigreeFunction = models.FloatField(default=0.5)
     Age = models.IntegerField(default=25)
+   
