@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#about {
+    background-color: rgb(79, 145, 145);
+}
+
+.img1 {
+    width: 100vw;
+    height: 400px;
+    filter: blur(-5px);
+    margin-bottom: 10px;
+}
+
+#details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.diabetesimg {
+    width: 40vw;
+    height: 50%;
+    margin: 0px 20px;
+
+}
+
+.description {
+    margin-left: 5vw;
+}
+
+.qsn {
+    color: blue;
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+
+
+li {
+    font-size: 25px;
+    margin-bottom: 15px;
+}

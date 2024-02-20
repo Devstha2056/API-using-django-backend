@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.containerTest {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(179, 179, 197, 0.7), rgba(0, 0, 50, 0.7));
+    margin: 0;
+    margin-top: 0;
+
+
+}
+
+.inputTest {
+    height: 4vh;
+    background-color: rgba(214, 214, 226, 0.7);
+    border: 0.5px solid black;
+}
+
+
+
+.h1Test {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.MainTestInput {
+    margin-left: 10vw;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 19px;
+    margin-bottom: 2vh;
+}
+
+.detailsTestInput {
+    width: 100%;
+    display: flex;
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+
+}
+
+.dataTestInput {
+    margin: 13px;
+}
+
+span {
+    margin-right: 5px;
+}
+
+.labelTest {
+    margin-right: 30px;
+
+}
+
+#btnTest {
+
+    position: absolute;
+    left: 42vw;
+
+
+}
+
+.btn1Test {
+    background-color: blue;
+    padding: 10px;
+    margin-right: 10px;
+    width: 8vw;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn1Test a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}

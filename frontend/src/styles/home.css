@@ -1,0 +1,45 @@
+.front {
+    width: 100vw;
+    height: 90vh;
+    background-image: url(../images/diabetes-home-img.jpeg);
+    background-size: cover;
+
+
+}
+
+.heading {
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+
+.title {
+    overflow: hidden;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-left: -20px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    animation:
+        typing 3.5s steps(38) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+
+.slogan {
+    font-size: 40px;
+    color: rgb(70, 29, 29);
+}
+
+.slogan2 {
+    padding-left: 70px
+}

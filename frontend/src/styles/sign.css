@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.containerLogin {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(179, 179, 197, 0.7), rgba(0, 0, 50, 0.7));
+
+}
+
+.formLogin {
+    margin-top: -80px;
+    height: 440px;
+    max-width: 450px;
+    padding: 50px 60px 70px;
+    text-align: center;
+    background-color: rgb(53, 211, 211);
+
+}
+
+.formRegister {
+    margin-top: -100px;
+    height: 82vh;
+    max-width: 500px;
+    padding: 50px 60px 70px;
+    text-align: center;
+    background-color: rgb(53, 211, 211);
+    /* box-shadow: 30px 25px 10px rgb(161, 51, 51); */
+}
+
+#title {
+    font-size: 30px;
+    position: relative;
+    color: rgb(68, 68, 82);
+}
+
+#title::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background: #441840;
+    position: absolute;
+    bottom: -12px;
+    left: 49%;
+    transform: translate(-48%);
+}
+
+.mainForm {
+    margin: 35px 0;
+}
+
+.inputData {
+    margin: 0;
+    border-radius: 30px;
+    display: flex;
+    font-size: 1.25rem;
+    position: relative;
+    --primary: #0a3457;
+    background-color: rgb(53, 211, 211);
+}
+
+.eye-icon {
+    position: relative;
+    top: 15px;
+    left: -30px;
+}
+
+.input {
+    all: unset;
+    color: #412f2f;
+    padding: 1rem;
+    border: 2px solid #681717;
+    border-radius: 20px;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.label {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #2e1111;
+    pointer-events: none;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:focus {
+    border: 2px solid var(--primary);
+
+}
+
+.input:is(:focus, :valid)~label {
+    transform: translateY(-120%) scale(0.7);
+    background-color: #8b80aa;
+    padding-inline: 0.5rem;
+    color: var(--primary);
+    color: #663535;
+    font-size: 24px;
+}
+
+
+.error {
+
+    font-size: 13px;
+}
+
+.link {
+    color: blue;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.button_group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.button_group button {
+    flex-basis: 58%;
+    background: blue;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
+
+.button_group button:hover {
+    color: blue;
+    background-color: cornflowerblue;
+}

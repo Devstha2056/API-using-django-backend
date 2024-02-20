@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+    height: 65px;
+    width: 150px;
+    padding-left: 50px;
+    margin-right: 10vw;
+
+
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(170, 170, 194);
+    height: 10vh;
+    width: 100vw;
+
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 500px;
+    margin-right: 10vw;
+    font-size: 25px;
+
+}
+
+.nav {
+    padding: 20px 0px;
+    margin: 0px 30px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+
+}
+
+.nav::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #302a2c;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    transition: 0.5s;
+}
+
+.nav:hover::after {
+    width: 100%;
+}
