@@ -1,9 +1,8 @@
-
 {
 
     "builds": [{
 
-        "src": "diabetes/diabetes.py",
+        "src": "diabetes/manage.py",
 
         "use": "@vercel/python",
 
@@ -17,7 +16,7 @@
 
             "src": "/(.*)",
 
-            "dest": "diabetes/diabetes.py"
+            "dest": "diabetes/manage.py"
 
         }
 
