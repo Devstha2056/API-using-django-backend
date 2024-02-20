@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bs!j-2s^^m#(v^j^h8l_^=ew*-y_^jtu)=(xh5e#o$v=6x^76g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ '127.0.0.1','.vercel.app' ]
+ALLOWED_HOSTS = ['example.com', 'www.example.com', '127.0.0.1', 'localhost']
 
 
 
@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'api.apps.ApiConfig',
      'corsheaders',
      'rest_framework',
-     'diabetes'
 
      
 ]
@@ -133,6 +132,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #aa
 CORS_ALLOW_ALL_ORIGINS=True
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:3000",  # React development server
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",  # React development server
+]
