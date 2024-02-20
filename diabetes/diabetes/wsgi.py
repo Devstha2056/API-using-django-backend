@@ -16,3 +16,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'diabetes.settings')
 application = get_wsgi_application()
 app = get_wsgi_application()
 WSGI_APPLICATION = 'vercel_app.wsgi.app'
+app=application
