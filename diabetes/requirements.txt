@@ -7,7 +7,11 @@ gunicorn
 joblib
 numpy
 Pillow
+<<<<<<< HEAD
 PyPI
+=======
+psycopg2-binary
+>>>>>>> e837e44461d3d556cbb29e9923cbace89194f338
 PyJWT
 pytz
 scikit-learn
@@ -17,3 +21,10 @@ sudo
 threadpoolctl
 tzdata
 whitenoise
+<<<<<<< HEAD
+=======
+sqlparse
+tzdata
+six
+python-dateutil
+>>>>>>> e837e44461d3d556cbb29e9923cbace89194f338
